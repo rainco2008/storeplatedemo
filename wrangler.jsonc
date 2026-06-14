@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "storeplatedemo",
+  "compatibility_date": "2026-04-15",
+  "compatibility_flags": ["nodejs_compat"],
+  "main": "@astrojs/cloudflare/entrypoints/server",
+  "assets": {
+    "binding": "ASSETS",
+  },
+  "observability": {
+    "enabled": true,
+  },
+}
